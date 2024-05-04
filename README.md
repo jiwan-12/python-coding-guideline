@@ -1,4 +1,4 @@
-## Project and Python environment setup guidelines
+## Python environment setup guidelines
 ### Python3.7 or lastest stable version (eg: python3.12)
 
 ### Use the following project structure for the new project
