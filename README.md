@@ -7,7 +7,7 @@
     ├── docs/                   # Documentation files (optional)
     ├── resources/              # For resources such as images, icons etc
     ├── src/                    # Source code
-    |
+    |   |
     │   ├── package1/           # Package 1
     │   │   ├── __init__.py
     │   │   ├── module1.py
