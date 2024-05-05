@@ -65,7 +65,8 @@
             pylint --generate-rcfile > .pylintrc
          
         Update following line in .pylintrc
-            init-hook='import sys; sys.path.append(".")'
+            init-hook='import sys; import os; sys.path.append("."); sys.path.append(os.path.abspath("src")); sys.path.append(os.path.abspath(<path-to-your-virtual-environment-site-packages>));'
+            <path-to-your-virtual-environment-site-packages> eg: ../venv/lib64/python3.10/site-packages
 
 ### Runing and Testing
    #### To Run the application
